@@ -1,0 +1,6 @@
+.venv/
+.DS_Store
+__pycache__/
+# Videos are not on any slide (sources in media/SOURCES.md)
+media/*.webm
+media/*.mp4

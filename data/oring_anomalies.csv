@@ -1,0 +1,68 @@
+# Source: Report of the Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission), Vol. 1, 1986,
+#   Chapter VI, Figure 2 "O-Ring Anomalies Compared with Joint Temperature and Leak Check Pressure", pp. 129-131.
+#   NASA NTRS 19860015255: https://ntrs.nasa.gov/citations/19860015255
+# Transcribed by hand from the scanned table. One row per table row (= one joint with an anomaly, or one flight/motor without).
+# type: flight = Shuttle flight (STS); static = ground static-test motor (DM = development, QM = qualification), fired horizontally.
+# erosion / blowby: X = yes, - = no anomaly, NA = not applicable,
+#   heat = table footnote: hot gas path in the putty with an indication of heat on the primary O-ring (STS-6, 41-C, 51-F),
+#   heat_secondary = footnote 4: soot blown by the primary and heat effect on the secondary (51-C).
+# STS-4: hardware lost at sea, anomalies unknown. STS 51-L (Challenger): no post-flight data, joint temperature only.
+flight,date,type,booster,joint,ring,field_psi,nozzle_psi,erosion,blowby,joint_temp_F
+DM-1,1977-07-18,static,,,,NA,NA,-,-,84
+DM-2,1978-01-18,static,,,,NA,NA,-,-,49
+DM-3,1978-10-19,static,,,,NA,NA,-,-,61
+DM-4,1979-02-17,static,,,,NA,NA,-,-,40
+QM-1,1979-07-13,static,,,,NA,NA,-,-,83
+QM-2,1979-09-27,static,,,,NA,NA,-,-,67
+QM-3,1980-02-13,static,,,,NA,NA,-,-,45
+STS-1,1981-04-12,flight,,,,50,50,-,-,66
+STS-2,1981-11-12,flight,Right,Aft Field,Primary,50,50,X,-,70
+STS-3,1982-03-22,flight,,,,50,50,-,-,69
+STS-4,1982-06-27,flight,,,,50,50,NA,NA,80
+DM-5,1982-10-21,static,,,,NA,NA,-,-,58
+STS-5,1982-11-11,flight,,,,50,50,-,-,68
+QM-4,1983-03-21,static,,Nozzle,Primary,NA,NA,X,-,60
+STS-6,1983-04-04,flight,Right,Nozzle,Primary,50,50,heat,-,67
+STS-6,1983-04-04,flight,Left,Nozzle,Primary,50,50,heat,-,67
+STS-7,1983-06-18,flight,,,,50,50,-,-,72
+STS-8,1983-08-30,flight,,,,100,50,-,-,73
+STS-9,1983-11-28,flight,,,,100,100,-,-,70
+STS 41-B,1984-02-03,flight,Right,Nozzle,Primary,200,100,X,-,57
+STS 41-B,1984-02-03,flight,Left,Forward Field,Primary,200,100,X,-,57
+STS 41-C,1984-04-06,flight,Right,Nozzle,Primary,200,100,X,-,63
+STS 41-C,1984-04-06,flight,Left,Aft Field,Primary,200,100,heat,-,63
+STS 41-C,1984-04-06,flight,Right,Igniter,Primary,NA,NA,-,X,63
+STS 41-D,1984-08-30,flight,Right,Forward Field,Primary,200,100,X,-,70
+STS 41-D,1984-08-30,flight,Left,Nozzle,Primary,200,100,X,X,70
+STS 41-D,1984-08-30,flight,Right,Igniter,Primary,NA,NA,-,X,70
+STS 41-G,1984-10-05,flight,,,,200,100,-,-,78
+DM-6,1984-10-25,static,,Inner Gasket,Primary,NA,NA,X,X,52
+STS 51-A,1984-11-08,flight,,,,200,100,-,-,67
+STS 51-C,1985-01-24,flight,Right,Center Field,Primary,200,100,X,X,53
+STS 51-C,1985-01-24,flight,Right,Center Field,Secondary,200,100,heat_secondary,-,53
+STS 51-C,1985-01-24,flight,Right,Nozzle,Primary,200,100,-,X,53
+STS 51-C,1985-01-24,flight,Left,Forward Field,Primary,200,100,X,X,53
+STS 51-C,1985-01-24,flight,Left,Nozzle,Primary,200,100,-,X,53
+STS 51-D,1985-04-12,flight,Right,Nozzle,Primary,200,200,X,-,67
+STS 51-D,1985-04-12,flight,Right,Igniter,Primary,NA,NA,-,X,67
+STS 51-D,1985-04-12,flight,Left,Nozzle,Primary,200,200,X,-,67
+STS 51-D,1985-04-12,flight,Left,Igniter,Primary,NA,NA,-,X,67
+STS 51-B,1985-04-29,flight,Right,Nozzle,Primary,200,100,X,-,75
+STS 51-B,1985-04-29,flight,Left,Nozzle,Primary,200,100,X,X,75
+STS 51-B,1985-04-29,flight,Left,Nozzle,Secondary,200,100,X,-,75
+DM-7,1985-05-09,static,,Nozzle,Primary,NA,NA,X,-,61
+STS 51-G,1985-06-17,flight,Right,Nozzle,Primary,200,200,X,X,70
+STS 51-G,1985-06-17,flight,Left,Nozzle,Primary,200,200,X,X,70
+STS 51-G,1985-06-17,flight,Left,Igniter,Primary,NA,NA,-,X,70
+STS 51-F,1985-07-29,flight,Right,Nozzle,Primary,200,200,heat,-,81
+STS 51-I,1985-08-27,flight,Left,Nozzle,Primary,200,200,X,-,76
+STS 51-J,1985-10-03,flight,,,,200,200,-,-,79
+STS 61-A,1985-10-30,flight,Right,Nozzle,Primary,200,200,X,-,75
+STS 61-A,1985-10-30,flight,Left,Aft Field,Primary,200,200,-,X,75
+STS 61-A,1985-10-30,flight,Left,Center Field,Primary,200,200,-,X,75
+STS 61-B,1985-11-26,flight,Right,Nozzle,Primary,200,200,X,-,76
+STS 61-B,1985-11-26,flight,Left,Nozzle,Primary,200,200,X,X,76
+STS 61-C,1986-01-12,flight,Right,Nozzle,Primary,200,200,X,-,58
+STS 61-C,1986-01-12,flight,Left,Aft Field,Primary,200,200,X,-,58
+STS 61-C,1986-01-12,flight,Left,Nozzle,Primary,200,200,-,X,58
+STS 51-L,1986-01-28,flight,,,,200,200,,,31
