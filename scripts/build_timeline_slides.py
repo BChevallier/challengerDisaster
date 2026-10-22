@@ -68,8 +68,8 @@ AFTER_IMAGES = {  # index -> pictures shown one per click after the last bullet,
          "The same cut with the joint opened (gap exaggerated): the O-rings no longer touch the metal and hot gas "
          "gets past them")],
 }
-# FULL_IMAGES: wide 16:9 figures across the slide instead of bullets; the first shows with the slide,
-# each next one covers it on a click.
+# FULL_IMAGES: wide 16:9 figures across the slide instead of bullets, one per click,
+# each covering the previous one.
 FULL_IMAGES = {
     5: [("figures/oring_temperature_field_incomplete_nochallenger_dark.png",
          "Scatter of damaged field joints against joint temperature, only the 7 flights with damage: no clear trend"),
@@ -133,7 +133,7 @@ def event_slide(cur):
     for src, alt in AFTER_IMAGES.get(cur, []):
         after += f'\n      <div class="tl-picture tl-after fragment"><img src="{src}" alt="{alt}"></div>'
     if cur in FULL_IMAGES:
-        imgs = "\n        ".join(f'<img class="{"fragment" if k else ""}" src="{src}" alt="{alt}">'
+        imgs = "\n        ".join(f'<img class="fragment" src="{src}" alt="{alt}">'
                                  for k, (src, alt) in enumerate(FULL_IMAGES[cur]))
         body = f'<div class="tl-full r-stack">\n        {imgs}\n      </div>'
     else:
