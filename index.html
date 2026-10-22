@@ -61,7 +61,8 @@
     .reveal .tl-dot.past { background: var(--text-secondary); }
     .reveal .tl-dot.future { background: #3a3a3a; }
     .reveal .tl-dot.now, .reveal .tl-dot.final { background: var(--accent); }
-    .reveal .tl-dot.context { background: transparent; border: 2px solid var(--text-secondary); box-sizing: border-box; }
+    .reveal .tl-dot { z-index: 1; }
+    .reveal .tl-dot.context { background: var(--surface); border: 2px solid var(--text-secondary); box-sizing: border-box; }
     .reveal .tl-dot.context.now { border-color: var(--accent); }
     .reveal .tl-date { position: absolute; top: 58px; width: 140px; text-align: center; font-size: 0.45em;
       color: var(--muted); white-space: nowrap; }
